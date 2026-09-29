@@ -239,7 +239,6 @@ I'm particularly interested in:
 * Observability and Monitoring
 
 ---
-
 ## 🌐 Connect With Me
 
 <p align="left">
@@ -249,30 +248,20 @@ I'm particularly interested in:
   <a href="https://github.com/axay7021">
     <img src="https://img.shields.io/badge/GitHub-axay7021-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  <a href="YOUR_LINKEDIN_URL">
+  <a href="https://www.linkedin.com/in/akshay-dobariya-31b6b5224/">
     <img src="https://img.shields.io/badge/LinkedIn-Akshay%20Dobariya-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
 </p>
 
 ---
 
-## 💡 Philosophy
+## 💡 Engineering Philosophy
 
-> Build reliable systems.
-> Keep the architecture simple.
-> Understand the data.
+> Build reliable systems.  
+> Keep the architecture simple.  
+> Understand the data.  
 > Design for change.
 
 ---
 
 ⭐ Thanks for visiting my profile!
-
-````
-
-### One thing you need to change
-
-Before saving, replace:
-
-```md
-[YOUR_LINKEDIN_URL](https://www.linkedin.com/in/akshay-dobariya-31b6b5224/)
-````
