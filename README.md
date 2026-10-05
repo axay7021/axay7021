@@ -2,7 +2,7 @@
 
 ### Backend Engineer | Node.js & TypeScript
 
-Backend Engineer with 3+ years of experience building and delivering production-grade backend systems.
+Backend Engineer with 4+ years of experience building and delivering production-grade backend systems.
 
 I specialize in designing reliable APIs, database-driven applications, transactional workflows, real-time systems, authentication and authorization, third-party integrations, and scalable backend architectures.
 
