@@ -1,267 +1,80 @@
-# Hi there! 👋 I'm Akshay Dobariya
+# Akshay Dobariya
 
-### Backend Engineer | Node.js & TypeScript
+### Software Engineer · Backend, Full-Stack & AI Integrations
 
-Backend Engineer with 4+ years of experience building and delivering production-grade backend systems.
+I build APIs, database-driven products and real-time systems with **4+ years of professional experience**. My core stack is **Node.js, TypeScript, PostgreSQL and MongoDB**; my recent projects also span NestJS, React, Next.js, Python/FastAPI and AI tool integrations.
 
-I specialize in designing reliable APIs, database-driven applications, transactional workflows, real-time systems, authentication and authorization, third-party integrations, and scalable backend architectures.
+[Portfolio](https://www.akshaydobariya.dev/) · [All projects](https://www.akshaydobariya.dev/projects) · [LinkedIn](https://www.linkedin.com/in/dobariyaakshay/) · [Email](mailto:akshaydobariya01@gmail.com)
 
----
+## Recent projects
 
-## 🚀 About Me
+### Ethos Finance
 
-- 💻 Backend Engineer focused on **Node.js & TypeScript**
-- 🏗️ Building production-grade backend systems and REST APIs
-- 🗄️ Experienced with **PostgreSQL, MongoDB, Redis, and Prisma**
-- ☁️ Working with **AWS**, including EC2 and S3
-- 🔐 Experienced with authentication, authorization, JWT, and RBAC
-- ⚡ Building real-time systems using WebSockets and Socket.IO
-- 🔌 Integrating third-party APIs and external services
-- 📊 Interested in system design, scalability, performance, and observability
-- 🧩 Experienced in ERP/MES, workforce management, B2B, booking, and business platforms
+A personal finance platform covering accounts, transactions, credit cards, loans, investments, goals and SIP schedules. Includes a ledger that treats credit-card repayments as transfers, encrypted financial values, transactional balance updates, and a Gemini copilot with confirmation before writes. An MCP server exposes finance tools to compatible clients.
 
----
+**Stack:** NestJS · React · TypeScript · PostgreSQL · Prisma · Gemini · MCP · SSE
 
-## 🛠️ Tech Stack
+[Live application](https://finance-management.akshaydobariya.dev/) · [Project details](https://www.akshaydobariya.dev/projects/ethos-finance)
 
-### Backend
+### BlogSoftAI
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST%20APIs-02569B?style=flat-square)
-![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square)
+An AI-assisted publishing platform with an editorial admin studio, public reader portal and scheduled content-generation service. Supports drafting, SEO analysis, media workflows and editorial review. The admin studio includes a Demo Reviewer mode.
 
-### Databases
+**Stack:** Next.js · TypeScript · Gemini · Firebase Auth · Firestore · Cloud Storage
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+[Reader portal](https://blogsoftai.akshaydobariya.com/articles) · [Admin studio](https://admin-blogsoftai.akshaydobariya.com/admin) · [Project details](https://www.akshaydobariya.dev/projects/blogsoftai)
 
-### Cloud & DevOps
+### Glow Salon Voice Agent
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+A fictional salon receptionist for service discovery, availability checks, multi-service bookings, rescheduling and cancellation. The React interface includes a guided walkthrough, live-transcript integration and appointment cards. Booking tools validate staff skills, hours and overlapping appointments; the backend supports PostgreSQL and SQLite.
 
-### Frontend
+**Stack:** Python · FastAPI · React · LiveKit Agents · Deepgram · OpenAI · ElevenLabs
 
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+[Hosted demo](https://voice.akshaydobariya.dev/) · [Project details](https://www.akshaydobariya.dev/projects/glow-salon-voice-agent)
 
----
+**Current status:** The guided example is available. Live voice is awaiting provider credentials and will be enabled after setup and verification.
 
-## 🏗️ What I Build
+### Document Analysis
 
-I focus on building reliable backend systems around:
+A document-intelligence proof of concept with authenticated PDF/text ingestion, chunking, embeddings, FAISS retrieval and streamed chat. The evidence workspace brings document selection, uploads, questions and source references into one interface.
 
-- REST API architecture
-- Database design
-- Business logic and complex workflows
-- Transaction management
-- Authentication and authorization
-- Role-based access control
-- Real-time communication
-- Caching and performance optimization
-- Third-party API integrations
-- Monitoring and observability
-- Deployment and CI/CD
-- System design and scalability
+**Stack:** Node.js · Express · TypeScript · OpenAI embeddings · FAISS · SSE · Socket.IO
 
-### Backend Architecture
+[Hosted application](https://documents.akshaydobariya.dev/) · [Public repository](https://github.com/axay7021/document-analysis) · [Project details](https://www.akshaydobariya.dev/projects/document-analysis)
 
-```text
-                    ┌──────────────────┐
-                    │   Client / App   │
-                    └────────┬─────────┘
-                             │
-                             ▼
-                    ┌──────────────────┐
-                    │    REST APIs     │
-                    │ Node.js / Express│
-                    └────────┬─────────┘
-                             │
-                             ▼
-                    ┌──────────────────┐
-                    │  Business Logic  │
-                    │  Transactions    │
-                    └────────┬─────────┘
-                             │
-                ┌────────────┴────────────┐
-                ▼                         ▼
-       ┌────────────────┐        ┌────────────────┐
-       │   PostgreSQL   │        │    MongoDB     │
-       │     Prisma     │        │    Mongoose    │
-       └────────────────┘        └────────────────┘
-                │                         │
-                └────────────┬────────────┘
-                             ▼
-                    ┌──────────────────┐
-                    │ Redis / Caching  │
-                    └──────────────────┘
-                             │
-                             ▼
-                    ┌──────────────────┐
-                    │   AWS / Cloud    │
-                    │    EC2 / S3      │
-                    └──────────────────┘
+AI processing depends on provider configuration; the standalone evidence demo also supports keyword retrieval.
 
-````
+### AI Image Generator
+
+A photo-transformation workspace backed by a separate FastAPI service, with authentication, subscription and usage-quota workflows. The frontend and backend repositories form one application.
+
+**Stack:** Next.js · React · TypeScript · Python · FastAPI · PostgreSQL · Clerk
+
+[Hosted application](https://images.akshaydobariya.dev/) · [Frontend repository](https://github.com/axay7021/fe-image-generator) · [Backend repository](https://github.com/axay7021/be-image-generator) · [Project details](https://www.akshaydobariya.dev/projects/ai-image-generator)
+
+Image generation depends on the remaining authentication, database and AI-provider configuration.
+
+Some project source repositories are private; their public demos and case studies are linked above. A reachable demo page does not imply every provider-backed feature is enabled.
+
+## Professional backend work
+
+| Project | Backend focus | Technologies |
+| --- | --- | --- |
+| **Set-Center ERP / MES** | Manufacturing workflows, production scheduling, inventory, transactional operations and real-time monitoring | Node.js, TypeScript, Express, PostgreSQL, Prisma, WebSockets, AWS S3 |
+| **Shift-Kanri** | Workforce scheduling, attendance, authentication, caching and observability | Node.js, TypeScript, PostgreSQL, Prisma, Redis, LINE Login, OpenTelemetry, Sentry |
+| **Shokunin Base** | Skill-based matching, user/company workflows, geospatial discovery and communication | Node.js, Express, MongoDB, Mongoose, LINE, REST APIs |
+| **Event Planner** | Work opportunities, project workflows, monthly contracts, reviews and messaging | Node.js, MongoDB, JavaScript, REST APIs, CometChat |
+
+## Toolkit
+
+- **Backend:** Node.js, TypeScript, Express, NestJS, Python, FastAPI, REST APIs, WebSockets, Socket.IO
+- **Data:** PostgreSQL, MongoDB, Redis, Prisma, Mongoose, SQLite
+- **Frontend:** React, Next.js, Tailwind CSS
+- **AI integrations:** OpenAI, Gemini, LiveKit Agents, Deepgram, ElevenLabs, FAISS, MCP
+- **Delivery:** AWS EC2/S3, Vercel, Render, Git, GitHub Actions
+
+I focus on database design, transactional consistency, authentication and authorization, API integration, observability and maintainable architecture.
 
 ---
 
-## 📌 Featured Projects
-
-### 🏭 Set-Center ERP/MES
-
-Backend for an ERP/MES platform developed for a food packaging manufacturing company in Japan.
-
-**Technology:**
-
-`Node.js` · `TypeScript` · `Express.js` · `PostgreSQL` · `Prisma` · `WebSockets` · `AWS S3`
-
-**Focus areas:**
-
-* Manufacturing workflows
-* Production scheduling
-* Inventory management
-* Transactional operations
-* Real-time monitoring
-* REST API development
-* Authentication and authorization
-* Role-based access control
-* PDF and document generation
-* AWS S3 integration
-* LINE API integration
-
----
-
-### 👥 Shift-Kanri
-
-Workforce management system focused on employee scheduling, attendance, and workforce operations.
-
-**Technology:**
-
-`Node.js` · `TypeScript` · `Express.js` · `PostgreSQL` · `Prisma` · `Redis`
-
-**Focus areas:**
-
-* Workforce management
-* Employee scheduling
-* Attendance workflows
-* Transactional operations
-* JWT authentication
-* LINE Login
-* Redis caching
-* API validation
-* OpenAPI documentation
-* OpenTelemetry
-* Sentry
-
----
-
-### 🔧 Shokunin Base
-
-B2B/B2C platform designed to connect people and companies based on skills, experience, and project requirements.
-
-**Technology:**
-
-`Node.js` · `Express.js` · `MongoDB` · `Mongoose` · `REST APIs`
-
-**Focus areas:**
-
-* Skill-based matching
-* User and company workflows
-* Project management
-* Recommendation features
-* Geospatial matching
-* Authentication
-* Authorization
-* Role-based access control
-* LINE integration
-* Real-time communication
-
----
-
-### 📅 Event Planner
-
-Platform for discovering work opportunities, publishing achievements, managing company reviews, contracts, and user communication.
-
-**Technology:**
-
-`Node.js` · `MongoDB` · `REST APIs` · `JavaScript` · `CometChat`
-
-**Focus areas:**
-
-* User management
-* Company workflows
-* Project workflows
-* Monthly contracts
-* Reviews
-* Work opportunities
-* Real-time communication
-* API development
-* Database operations
-
----
-
-## 🧠 Engineering Interests
-
-I'm particularly interested in:
-
-* System Design
-* Backend Architecture
-* Database Design
-* PostgreSQL
-* Distributed Systems
-* API Design
-* Scalability
-* Performance Optimization
-* Caching
-* Real-time Systems
-* Observability
-* Cloud Infrastructure
-
----
-
-## 📚 Currently Learning & Improving
-
-* Advanced System Design
-* PostgreSQL Query Optimization
-* Database Indexing
-* Transaction Isolation
-* Distributed Systems
-* Backend Scalability
-* Cloud Architecture
-* Advanced TypeScript
-* Observability and Monitoring
-
----
-## 🌐 Connect With Me
-
-<p align="left">
-  <a href="https://www.akshaydobariya.dev/">
-    <img src="https://img.shields.io/badge/Portfolio-akshaydobariya.dev-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-  </a>
-  <a href="https://github.com/axay7021">
-    <img src="https://img.shields.io/badge/GitHub-axay7021-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/akshay-dobariya-31b6b5224/">
-    <img src="https://img.shields.io/badge/LinkedIn-Akshay%20Dobariya-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-</p>
-
----
-
-## 💡 Engineering Philosophy
-
-> Build reliable systems.  
-> Keep the architecture simple.  
-> Understand the data.  
-> Design for change.
-
----
-
-⭐ Thanks for visiting my profile!
+Project links reviewed **13 November 2026**. See my [portfolio](https://www.akshaydobariya.dev/) for demos, case studies and contact details.
